@@ -18,6 +18,9 @@ export class AppComponent implements OnInit {
   cols: any[];
   sales: any[];
 
+  selectedCars: Car[];
+  selectedCars3: Car[];
+
   ngOnInit() {
     this.cars = [
       { vin: '12345', year: 2005, brand: 'Toyota', color: 'black' },
